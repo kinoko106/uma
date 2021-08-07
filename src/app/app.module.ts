@@ -9,6 +9,7 @@ import { SidebarButtonComponent } from './sidebr-contents/sidebar-button/sidebar
 import { HeaderComponent } from './header/header.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { ButtonModule } from 'primeng/button'
+import { TableModule } from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ButtonModule } from 'primeng/button'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ButtonModule
+    ButtonModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
