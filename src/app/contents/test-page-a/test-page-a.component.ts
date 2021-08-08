@@ -11,6 +11,18 @@ import { Component, OnInit } from '@angular/core';
 /** list選択したらそのレースの */
 export class TestPageAComponent implements OnInit {
 
+  pageList = [
+    { name: '皐月賞', url: 'https://race.netkeiba.com/special/index.html?id=0045' },
+    { name: '日本ダービー', url: 'https://race.netkeiba.com/special/index.html?id=0061' },
+    { name: '', url: '' },
+    { name: '', url: '' },
+  ]
+
+  listBoxStyle = {
+    'max-height': '250px',
+    'width': '200px'
+  }
+
   constructor() { }
 
   ngOnInit(): void {
